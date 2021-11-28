@@ -13,6 +13,7 @@ urlpatterns = [
     path('', include('riders.urls')),
     path('drivers/', include('drivers.urls')),
     path('admins/', include('admins.urls')),
+    path('api-auth/', include('rest_framework.urls'))
 
 ]
 
